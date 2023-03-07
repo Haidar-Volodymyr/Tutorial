@@ -5,33 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <!-- header -->
+    <header class="header-page">
+      <nav class="navigation-page">
+        <a class="link logo-page" href="./index.html"
+          ><span class="text-logo">Web</span>Studio</a
+        >
+        <ul class="list menu">
+          <li class="menu-items">
+            <a class="link menu-link" href="">Studio</a>
+          </li>
+          <li class="menu-items">
+            <a class="link menu-link" href="">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a class="link menu-link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="list">
+          <li>
+            <a class="link main-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link main-contact" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
+    <!-- main -->
     <main>
+      <!-- Hero -->
       <section>
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="model-button" type="button">
+          <span class="text-button">Order Service</span>
+        </button>
       </section>
       <section>
         <h2 hidden>Feature</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -64,7 +91,7 @@
       </section>
       <section>
         <h2>What are we doing</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/galary/img-1.jpg"
@@ -91,9 +118,10 @@
           </li>
         </ul>
       </section>
+      <!-- Team -->
       <section>
         <h2>Our Team</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/workers/mark-guerrero.jpg"
@@ -137,8 +165,9 @@
         </ul>
       </section>
     </main>
+    <!-- Footer -->
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a class="link" href="./index.html">WebStudio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
